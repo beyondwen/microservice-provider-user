@@ -1,5 +1,5 @@
 server:
-  port: 9090
+  port: 9080
 spring:
   jpa:
     generate-ddl: false
@@ -15,6 +15,6 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://peer1:9051/eureka/,http://peer2:9052/eureka/
+      defaultZone: http://peer1:9051/eureka/
   instance:
     prefer-ip-address: true
